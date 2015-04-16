@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppExplorer</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app">应用程序</string>
+</resources>

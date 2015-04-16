@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#313849">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="90px"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="30px"
+        android:background="@drawable/topbr">
+
+        <ImageView
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:src="@drawable/selector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="30px"
+            android:text="@string/app"/>
+
+        </LinearLayout>
+
+        <GridView
+        android:id="@+id/gv_apps"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:numColumns="3"
+        android:horizontalSpacing="10px"
+        android:verticalSpacing="10px"
+        android:listSelector="@drawable/sel1"
+        android:layout_marginTop="95px"
+        android:layout_marginBottom="115px"
+        android:layout_marginLeft="15px"
+        android:layout_marginRight="15px">
+        </GridView>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="110px"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/relativeLayout"
+        android:background="@drawable/topbr">
+
+        <ImageView
+            android:id="@+id/ib_change_view"
+            android:src="@drawable/grid_btn"
+            android:layout_width="152px"
+            android:layout_height="108px"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ib_change_category"
+        android:src="@drawable/info_btn"
+        android:layout_width="152px"
+        android:layout_height="108px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
